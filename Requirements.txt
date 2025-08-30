@@ -1,0 +1,14 @@
+opencv-python
+numpy
+customtkinter
+Pillow
+face_recognition
+ultralytics
+pygame
+opencv-python-headless
+torch
+torchvision
+facenet-pytorch
+matplotlib
+pyttsx3
+pyyaml
