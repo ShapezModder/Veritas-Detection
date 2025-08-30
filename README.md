@@ -1,5 +1,5 @@
 Veritas AI 🚨  
-A real-time surveillance system** built with Python, OpenCV, and YOLO.  
+A real-time surveillance system built with Python, OpenCV, and YOLO.  
 It can detect motion, humans, and faces from webcam input.  
 When enabled, the system can trigger an alarm and record video evidence into folders automatically.  
 
