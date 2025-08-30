@@ -28,20 +28,27 @@ When enabled, the system can trigger an alarm and record video evidence into fol
 📦 Installation
 
 Clone this repository:
-```bash
 git clone https://github.com/ShapezModder/Veritas-Detection
+
+---
 
 📦 Create a Virtual Environment
 python -m venv .venv
 .venv\Scripts\activate     # On Windows
 source .venv/bin/activate  # On Mac/Linux
 
+---
+
 📦 Install dependencies:
 pip install -r requirements.txt
+
+---
 
 ▶️ Usage
 Run the app:
 python veritas_final_ui.py
+
+---
 
 Controls inside the UI:
 - Toggle Motion Detection
@@ -49,10 +56,14 @@ Controls inside the UI:
 - Toggle Face Detection
 - Toggle Alarm (siren on human)
 
+----
+
 Recordings will be saved into:
 - MOTION/
 - HUMAN/
 - FACE/
+
+  ---
 
 📂 Project Structure
 veritas-ai/
@@ -68,13 +79,19 @@ veritas-ai/
 │── HUMAN/                  # Human recordings
 │── FACE/                   # Face recordings
 
+---
+
 ⚠️ Notes
 - YOLO weights (yolov8n.pt) are not included in the repo (too large).
 - By default, Ultralytics will auto-download them on first run.
 - On Windows, installing face_recognition may require Visual C++ Build Tools and CMake.
 
+---
+
 📜 License
 This project is licensed under the MIT License.
+
+---
 
 🚀 Future Improvements
 - Multi-camera support
