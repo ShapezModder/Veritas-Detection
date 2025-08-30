@@ -99,4 +99,6 @@ This project is licensed under the MIT License.
 - Cloud storage for recordings
 - Web-based dashboard (Flask/Streamlit)
 
+<img width="1282" height="752" alt="Screenshot 2025-08-30 155312" src="https://github.com/user-attachments/assets/14834345-b34e-454a-9cc7-7c10fd7afb38" />
+
 
